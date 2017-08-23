@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Deals
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngIf="currentDeal">
+    <ion-card-header>Counteroffer #{{currentDeal[0]}}</ion-card-header>
+    <ion-card-content>
+      <p><strong>Support:</strong></p>
+      <p>{{currentDeal[1]}} card{{currentDeal[1] > 1 ? "s" : ""}}</p>
+      <p><strong>Counteroffer description:</strong></p>
+      <p>{{currentDeal[2]}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <button ion-button [full]="true" (click)="createCounterOffer()">Randomize Counteroffer</button>
+</ion-footer>

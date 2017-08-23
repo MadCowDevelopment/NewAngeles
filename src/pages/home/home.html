@@ -1,17 +1,138 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Rules</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+  <h2>Solitaire Rules for New Angeles by JK777</h2>
+  <p></p>
+  <h3>Background</h3>
+  <ul>
+    <li>New Angeles is beset by a covert group bent on ensuring the Federalists take over. The player must take control of a
+      group of Corporations that need to work together to stop the group and maintain control of New Angeles
+    </li>
+  </ul>
+
+  <h3>General</h3>
+  <ul>
+    <li>Unless stated otherwise follow the rules that came with the game; these are referred to as the “normal rules”. Set out
+      below are the changes to those rules that must be followed in this solo variant.
+    </li>
+    <li>The player is required to play three corporations. These corporations are separate entities and the player is not allowed
+      to trade cards or capital between the three corporations except where allowed by a specific Action or Asset card.
+    </li>
+    <li>Player, in these rules, refers to the person playing the solo variant. Corporation is used where player would generally
+      be used in the normal rules. Substitute the word Corporation for the word player in the normal rules as appropriate.
+    </li>
+  </ul>
+
+  <h3>Setup</h3>
+  <ul>
+    <li>Choose three corporations and follow the set up rules as set out in the normal game, except for the following two changes:
+      <ul>
+        <li>
+          Return the Rival cards to the box and do not perform step 10 of the set up. Rival cards are not used in the solo variant.
+        </li>
+        <li>Instead of drawing two investment cards per player, just draw two investment cards. Keep 1 and return the other to
+          the top of the Investment Deck.
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Standard Round</h3>
+  <ul>
+    <li>
+      Follow the steps in a Standard round per the normal rules: Refresh, Resolve Deal, End of Turn, Production Phase and Event
+      Phase.
+    </li>
+  </ul>
+
+  <h3>Steps of a Deal</h3>
+  <ul>
+    <li>
+      <strong>Asset:</strong> Draw the rightmost Asset card and place it in the revealed Asset box.
+    </li>
+    <li>
+      <strong>Main Offer:</strong> The Active Corporation proposes a Main Offer
+    </li>
+    <li>
+      <strong>Counter-offer:</strong> The player rolls d100 and refers to the Counter-offer table. This details the number
+      of Action cards that must be played to win the current deal.
+    </li>
+    <li>
+      <strong>Support:</strong> In clockwise order, the player can play cards for the other two Corporations in support of
+      the Main Offer.
+    </li>
+    <li>
+      <strong>Resolution:</strong> If the Main Offer has at least the number of Action cards detailed on the Counter-offer
+      table then the Active Corporation claims the revealed Asset card.
+    </li>
+    <li>
+      If the Main Offer has fewer than the number of Action cards detailed on the Counter-offer then discard the Asset card and
+      resolve the Effect shown on the Counter-offer table.
+    </li>
+  </ul>
+
+  <h3>Demand Round</h3>
+  <ul>
+    <li>
+      <strong>Score Investment:</strong> Resolve the Investment card. The player chooses which Corporation gains the capital.
+      Any capital earned cannot be split between two or more corporations.
+    </li>
+    <li>
+      <strong>Pay Demand &amp; Reveal Demand:</strong> Remain unchanged from the normal rules.
+    </li>
+    <li>
+      <strong>Choose Investment:</strong> The player draws two investment cards and keeps one.
+    </li>
+  </ul>
+
+  <h3>Winning &amp; Losing</h3>
+  <ul>
+    <li>
+      The player loses if threat reaches 25 or if the player fails to score 25 capital (see below).
+    </li>
+    <li>
+      The player’s score at the end of the game is the <strong>lowest capital</strong> (score) of the three corporations.
+    </li>
+    <li>
+      To increase the difficulty reduce the starting the capital of the three corporations. For example instead of 10, 11 and 12
+      try 7, 8 and 9.
+    </li>
+  </ul>
+
+  <h3>Asset Cards</h3>
+  <ul>
+    <li>
+      Unless stated below the text and effect of Asset cards remains unchanged.
+    </li>
+    <li>
+      The text on certain asset cards needs to be amended in the solo rules.
+    </li>
+    <li>
+      Coach Walden: When the Corporation to your right wins a deal, gain 1 capital
+    </li>
+    <li>
+      Saul Eustecio: When the Main Offer fails you may exhaust this card....
+    </li>
+    <li>
+      Isabel McGuire: ....in support of the Main Offer.
+    </li>
+    <li>The text on certain Asset cards is not applied in the Solo rules. <em>See the Assets tab for a complete list.</em>
+    </li>
+    <li>All of the assets where the text is not applied can be discarded to:
+      <ul>
+        <li>
+          Gain 1 capital for the Corporation holding the card <strong>or</strong>
+        </li>
+        <li>
+          Reroll the dice on any Counter-offer even if the Corporation discarding the Asset is not the Active Corporation. The new
+          die roll must be accepted and cannot be rerolled again.
+        </li>
+      </ul>
+    </li>
+  </ul>
 </ion-content>
